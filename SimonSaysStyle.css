@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+  }
+  body {
+    background-color: #ffffff;
+  }
+  .middle {
+    top: 325px;
+    left: 495px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 2;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+  }
+  .simon:before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 175px;
+    width: 175px;
+    transform: translate(-50%, -50%);
+    top: 300px;
+    left: 500px;
+    border-radius: 50%;
+  }
+  .color-part {
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    cursor: pointer;
+  }
+  .color1 {
+    top: 175px;
+    left: 375px;
+    background-color: #027802;
+    border-radius: 50%;
+  }
+  .color2 {
+    background-color: #950303;
+    border-radius: 50%;
+    top: 175px;
+    left: 525px;
+  }
+  .color3 {
+    background-color: #01018a;
+    top: 325px;
+    left: 525px;
+    border-radius: 50%;
+  }
+  .color4 {
+    background-color: #919102;
+    top: 325px;
+    left: 375px;
+    border-radius: 50%;
+  }
+  .behind-color {
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    cursor: pointer;
+    background-color: black;
+  }
+  .behind1 {
+    top: 170px;
+    left: 370px;
+    border-radius: 50%;
+  }
+  .behind2 {
+    border-radius: 50%;
+    top: 170px;
+    left: 520px;
+  }
+  .behind3 {
+    top: 320px;
+    left: 520px;
+    border-radius: 50%;
+  }
+  .behind4 {
+    top: 320px;
+    left: 370px;
+    border-radius: 50%;
+  }
+  #count1 {
+    background-color: lightgrey;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 300px;
+    left: 440px;
+    z-index: 2;
+    height: 25px;
+    width: 25px;
+    display: grid;
+    place-items: center;
+    border-radius: 25%;
+  }
+  #count2 {
+    background-color: lightgrey;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 300px;
+    left: 560px;
+    z-index: 2;
+    height: 25px;
+    width: 25px;
+    display: grid;
+    place-items: center;
+    border-radius: 25%;
+  }
+  .simon button {
+    background-color: lightgrey;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 300px;
+    left: 500px;
+    z-index: 2;
+    height: 27px;
+    width: 89px;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
