@@ -16,3 +16,6 @@ will	have	to	click	START	button	to	begin	a	new	game.
 7. Your	progress	(the	number	of	correctly	repeated	signals)	for	the	active game	
 is	shown	in	the	display	to	the	right	of	the	START	button.	The	all-time	highest	score	is	shown	in	the	
 display	to	the	left	of	the	START	button.	
+
+https://github.com/DanGore04/Simon-Says/assets/161526710/32a4fc70-9600-4dec-81b9-c5b22e098acb
+
